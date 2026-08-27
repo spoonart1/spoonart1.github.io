@@ -1,0 +1,10 @@
+# local shell scratch, not part of the site
+.bashrc
+.bashrcexport
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/

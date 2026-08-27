@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" width="720" height="900" role="img" aria-label="Screenshot placeholder">
+  <rect width="720" height="900" fill="#141E1B"/>
+  <g stroke="#26332F" stroke-width="1">
+    <path d="M0 225h720M0 450h720M0 675h720M180 0v900M360 0v900M540 0v900"/>
+  </g>
+  <rect x="246" y="132" width="228" height="470" rx="26" fill="#1B2724" stroke="#2F3F3A" stroke-width="1.5"/>
+  <rect x="330" y="146" width="60" height="6" rx="3" fill="#26332F"/>
+  <g fill="#26332F">
+    <rect x="266" y="182" width="120" height="9" rx="4"/>
+    <rect x="266" y="203" width="80" height="9" rx="4"/>
+  </g>
+  <circle cx="290" cy="300" r="7" fill="#E8B25C" opacity="0.6"/>
+  <path d="M290 300 C 330 300, 340 372, 386 372 S 424 452, 430 452" fill="none" stroke="#4FE0A8" stroke-width="2.5" stroke-linecap="round" opacity="0.55"/>
+  <circle cx="430" cy="452" r="7" fill="#4FE0A8" opacity="0.85"/>
+  <g fill="#26332F">
+    <rect x="266" y="512" width="188" height="9" rx="4"/>
+    <rect x="266" y="533" width="140" height="9" rx="4"/>
+    <rect x="266" y="562" width="96" height="24" rx="12"/>
+  </g>
+  <text x="360" y="676" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="17" letter-spacing="2.4" fill="#5D6E6A">SCREENSHOT PLACEHOLDER</text>
+  <text x="360" y="706" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="14" fill="#46554F">assets/shots/moka-pos.svg</text>
+  <text x="360" y="734" text-anchor="middle" font-family="'IBM Plex Mono',ui-monospace,monospace" font-size="13" fill="#3C4A45">any dimension fits — see README</text>
+</svg>
