@@ -58,7 +58,11 @@
 
 <header class="bar">
   <div class="wrap bar-in">
-    <a class="wordmark" href="#main">Lafran&nbsp;Pane</a>
+    <a class="wordmark" href="#main">
+      <img class="avatar" src="assets/img/lafran.jpg" width="271" height="271"
+           alt="" aria-hidden="true">
+      Lafran&nbsp;Pane
+    </a>
     <nav class="bar-nav" aria-label="Sections">
       <a href="#work">work</a>
       <a href="#stack">stack</a>
@@ -169,7 +173,11 @@
         </div>
 
         <div>
-          <h2 class="proj-name">SWAT Driver</h2>
+          <div class="proj-title">
+            <img class="proj-icon" src="assets/icons/swat-driver-2.png" width="128" height="128"
+                 alt="" aria-hidden="true">
+            <h2 class="proj-name">SWAT Driver</h2>
+          </div>
           <p class="proj-desc">
             Driver-facing dispatch and turn-by-turn navigation for a regional mobility
             platform. Drivers open it before dawn and keep it open all day, so every
@@ -218,9 +226,10 @@
         </div>
 
         <figure class="shot">
-          <img class="shot-bg" src="assets/shots/swat-driver-2.svg" alt="" aria-hidden="true">
-          <img class="shot-img" src="assets/shots/swat-driver-2.svg" alt="SWAT Driver app screenshot">
-          <figcaption>swat-driver-2.svg</figcaption>
+          <img class="shot-bg" loading="lazy" decoding="async" src="assets/shots/swat-driver-2.jpg" alt="" aria-hidden="true">
+          <img class="shot-img" loading="lazy" decoding="async" src="assets/shots/swat-driver-2.jpg" width="1000" height="2010"
+               alt="SWAT Driver in navigation mode: an active route across central Singapore, the next turn onto Moulmein Road, and the drop-off card for 300 Thomson Road.">
+          <figcaption>Turn-by-turn navigation &amp; drop-off, Singapore</figcaption>
         </figure>
       </article>
 
@@ -246,7 +255,11 @@
         </div>
 
         <div>
-          <h2 class="proj-name">Moka POS</h2>
+          <div class="proj-title">
+            <img class="proj-icon" src="assets/icons/moka-pos.png" width="128" height="128"
+                 alt="" aria-hidden="true">
+            <h2 class="proj-name">Moka POS</h2>
+          </div>
           <p class="proj-desc">
             Point-of-sale for Indonesian merchants — payments, KYC/KYB onboarding,
             transactions and receipt printing. Three years as an engineer, then a year
@@ -296,9 +309,10 @@
         </div>
 
         <figure class="shot">
-          <img class="shot-bg" src="assets/shots/moka-pos.svg" alt="" aria-hidden="true">
-          <img class="shot-img" src="assets/shots/moka-pos.svg" alt="Moka POS app screenshot">
-          <figcaption>moka-pos.svg</figcaption>
+          <img class="shot-bg" loading="lazy" decoding="async" src="assets/shots/moka-pos.jpg" alt="" aria-hidden="true">
+          <img class="shot-img" loading="lazy" decoding="async" src="assets/shots/moka-pos.jpg" width="900" height="1600"
+               alt="Moka POS product catalogue on a phone: 88 products, a running cart total of Rp 14.400, and the pay action pinned to the top.">
+          <figcaption>Product catalogue &amp; cart, Moka POS</figcaption>
         </figure>
       </article>
 
@@ -324,7 +338,11 @@
         </div>
 
         <div>
-          <h2 class="proj-name">Moladin Agent</h2>
+          <div class="proj-title">
+            <img class="proj-icon" src="assets/icons/moladin-agent.png" width="128" height="128"
+                 alt="" aria-hidden="true">
+            <h2 class="proj-name">Moladin Agent</h2>
+          </div>
           <p class="proj-desc">
             Field-sales app for agents financing used vehicles. A short engagement with a
             narrow brief: unblock the sales workflow and leave the team able to ship
@@ -350,13 +368,21 @@
         </div>
 
         <figure class="shot">
-          <img class="shot-bg" src="assets/shots/moladin-agent.svg" alt="" aria-hidden="true">
-          <img class="shot-img" src="assets/shots/moladin-agent.svg" alt="Moladin Agent app screenshot">
-          <figcaption>moladin-agent.svg</figcaption>
+          <img class="shot-bg" loading="lazy" decoding="async" src="assets/shots/moladin-agent.jpg" alt="" aria-hidden="true">
+          <img class="shot-img" loading="lazy" decoding="async" src="assets/shots/moladin-agent.jpg" width="900" height="1600"
+               alt="Moladin Agent financing application detail: status, amount, and the customer fields an agent captures. Phone number and NIK are masked.">
+          <figcaption>Financing application detail &mdash; ID fields masked</figcaption>
         </figure>
       </article>
 
     </div>
+
+    <p class="interlude">
+      <span class="interlude-yrs">2022 — 23</span>
+      Between Gojek and SWAT I freelanced for eight months while I learned Compose and
+      Flutter, took a three-month contract at Moladin, then spent that spring choosing
+      the next role rather than taking the first one. Happy to walk through it.
+    </p>
   </section>
 
   <!-- ========================= EARLIER WORK ========================= -->
@@ -437,44 +463,107 @@
   <section class="wrap sec" id="approach">
     <div class="sec-head">
       <p class="eyebrow eyebrow-lit">How I work</p>
+      <p class="eyebrow">verification first, then the structure that keeps it true</p>
     </div>
 
-    <div class="approach">
-      <div class="appr">
-        <h3>Stability is a feature</h3>
-        <p>
-          A crash rate is a product decision that someone has decided not to make. I treat
-          crash-free rate as a number the team owns and reports on, which is the only reason
-          82% ever becomes 99.3%.
-        </p>
+    <p class="approach-lede">
+      Stability is not a phase at the end. It is the order I do things in.
+    </p>
+
+    <div class="flow">
+
+      <div class="flow-group">
+        <p class="flow-k">Verification — fastest layer first</p>
+        <ol class="ladder">
+          <li>
+            <h3>Unit tests</h3>
+            <p>
+              The cheapest place to catch a regression, and the only layer fast enough to
+              run on every commit.
+            </p>
+          </li>
+          <li>
+            <h3>UI automation</h3>
+            <p>
+              Gherkin keeps the specs readable by QA and product, not just engineers. This
+              is also where I put AI agents to work writing and maintaining the suite.
+            </p>
+            <div class="tools">
+              <span class="chip">Appium</span>
+              <span class="chip">Playwright</span>
+              <span class="chip">BDD</span>
+              <span class="chip">Gherkin</span>
+            </div>
+          </li>
+          <li>
+            <h3>Manual, on real devices</h3>
+            <p>
+              For what automation cannot see: OEM quirks, unusual screen sizes, and how the
+              app behaves on a bad connection.
+            </p>
+            <div class="tools">
+              <span class="chip">BrowserStack</span>
+            </div>
+          </li>
+        </ol>
       </div>
-      <div class="appr">
-        <h3>I leave the pipeline behind</h3>
-        <p>
-          I have built the first CI/CD pipeline at two companies now. Shipping a feature helps
-          for a sprint; making releases boring and repeatable helps for years after I have
-          moved on.
-        </p>
+
+      <div class="flow-group">
+        <p class="flow-k">Foundations</p>
+        <ul class="found">
+          <li>
+            <div>
+              <h3>Multi-module</h3>
+              <p>
+                Android and Java libraries split so builds stay fast and teams stop blocking
+                each other. 37 modules at SWAT Mobility.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>Clean Architecture</h3>
+              <p>
+                So the app outlives the team that wrote it, and the next engineer can find
+                things without being told where they are.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>CI/CD</h3>
+              <p>
+                Every release ships through the pipeline, never from a laptop. I have built
+                this from nothing twice.
+              </p>
+            </div>
+          </li>
+        </ul>
       </div>
-      <div class="appr">
-        <h3>AI agents, with judgment intact</h3>
-        <p>
-          I build agents for the work that rewards repetition — UI automation, crash triage,
-          first-pass review. The goal is not to replace engineering judgment. It is to stop
-          spending it on things that never needed it.
-        </p>
-      </div>
+
     </div>
   </section>
 
   <!-- ============================= CONTACT ============================= -->
   <section class="wrap contact" id="contact">
     <p class="eyebrow eyebrow-lit">Open to</p>
-    <h2 class="contact-lede">Senior Android IC roles, remote.</h2>
-    <p class="contact-sub">
-      Currently at SWAT Mobility. If you are hiring for an Android team that cares what its
-      crash dashboard says, I would like to hear about it.
-    </p>
+
+    <div class="contact-in">
+      <img class="portrait" src="assets/img/lafran.jpg" width="271" height="271"
+           alt="Lafran Pane" loading="lazy" decoding="async">
+      <div>
+        <h2 class="contact-lede">Senior Android IC roles, remote.</h2>
+        <p class="contact-sub">
+          I spent a year managing 13 engineers at Gojek, then chose to go back to
+          building. IC is the work I am best at, not a rung I have not reached.
+        </p>
+        <p class="contact-sub">
+          Currently at SWAT Mobility, in Indonesia, working GMT+7. If you are hiring for
+          an Android team that cares what its crash dashboard says, I would like to hear
+          about it.
+        </p>
+      </div>
+    </div>
 
     <div class="cta-row">
       <a class="btn" href="mailto:myspoonart@gmail.com?subject=Senior%20Android%20role">Email me</a>

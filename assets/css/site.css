@@ -89,8 +89,16 @@ img, svg { max-width: 100%; }
   gap: 1rem; padding-block: .9rem;
 }
 .wordmark {
+  display: flex; align-items: center; gap: .6rem;
   font-family: var(--mono); font-size: .75rem; letter-spacing: .18em;
   text-transform: uppercase; color: var(--ink); text-decoration: none;
+}
+.avatar {
+  flex: none;
+  width: 1.625rem; height: 1.625rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--line);
 }
 .bar-nav { display: flex; gap: 1.4rem; }
 .bar-nav a {
@@ -265,6 +273,19 @@ img, svg { max-width: 100%; }
 }
 .spec-v { font-size: .875rem; color: var(--ink-dim); line-height: 1.5; }
 
+/* app icon beside the project name. Moladin ships a wordmark rather than a
+   square icon, so all three are normalised to 128px tiles at build time and
+   contained here — the tile geometry stays identical whatever the source. */
+.proj-title { display: flex; align-items: center; gap: .85rem; }
+.proj-icon {
+  flex: none;
+  width: 2.75rem; height: 2.75rem;
+  border-radius: 13px;
+  border: 1px solid var(--line);
+  background: var(--surf-hi);
+  object-fit: contain;
+}
+
 .proj-name {
   margin: 0;
   font-family: var(--display);
@@ -317,7 +338,7 @@ img, svg { max-width: 100%; }
 .shot {
   position: relative;
   margin: 0;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 3 / 4;
   border-radius: var(--r-md);
   overflow: hidden;
   background: var(--surf-hi);
@@ -337,13 +358,30 @@ img, svg { max-width: 100%; }
   display: block;
   width: 100%; height: 100%;
   object-fit: contain;
+  filter: drop-shadow(0 14px 34px rgba(0, 0, 0, .55));
 }
 .shot figcaption {
   position: absolute; z-index: 2; inset-inline: 0; bottom: 0;
   padding: .55rem .8rem;
   background: linear-gradient(to top, rgba(13, 20, 18, .92), transparent);
-  font-family: var(--mono); font-size: .625rem; letter-spacing: .06em;
-  color: var(--ink-faint); text-align: center;
+  font-family: var(--mono); font-size: .6875rem; letter-spacing: .04em;
+  color: var(--ink-dim); text-align: center;
+}
+
+/* the stated gap between roles. Quiet, but on the page rather than left to the
+   résumé to reveal. */
+.interlude {
+  display: grid;
+  grid-template-columns: minmax(0, 13rem) minmax(0, 1fr);
+  gap: clamp(1.5rem, 3.5vw, 3rem);
+  margin: 0;
+  padding-top: clamp(1.75rem, 3.5vw, 2.5rem);
+  border-top: 1px solid var(--line-soft);
+  font-size: .9375rem; color: var(--ink-dim); line-height: 1.7;
+}
+.interlude-yrs {
+  font-family: var(--mono); font-size: .6875rem; letter-spacing: .06em;
+  color: var(--horizon); font-variant-numeric: tabular-nums;
 }
 
 /* ---------- earlier work ---------- */
@@ -376,29 +414,104 @@ img, svg { max-width: 100%; }
 .stack-v { font-size: .9375rem; color: var(--ink-dim); line-height: 1.7; }
 .stack-v b { color: var(--ink); font-weight: 500; }
 
-/* ---------- approach ---------- */
-.approach {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: clamp(1.5rem, 3vw, 2.75rem);
-  margin-top: 2rem;
+/* ---------- approach ----------
+   Two groups, deliberately styled differently. The verification ladder is a real
+   sequence — order carries information — so it gets a rail with an amber origin
+   and a lit destination, the route track turned on its side. The foundations are
+   not steps, so they get no rail and no numbers.                                */
+.approach-lede {
+  margin: 1.75rem 0 0;
+  font-family: var(--display);
+  font-variation-settings: "wdth" 110, "wght" 600;
+  font-weight: 600;
+  font-size: clamp(1.25rem, 2.4vw, 1.75rem);
+  line-height: 1.25; letter-spacing: -.015em;
+  max-width: 34ch; text-wrap: balance;
 }
-.appr h3 {
-  margin: 0 0 .6rem;
+
+.flow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  gap: clamp(2rem, 4.5vw, 4rem);
+  margin-top: clamp(2rem, 4vw, 2.75rem);
+}
+.flow-group { display: flex; flex-direction: column; }
+.flow-k {
+  margin: 0 0 1.5rem;
+  font-family: var(--mono); font-size: .625rem; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--ink-faint);
+}
+
+.flow h3 {
+  margin: 0 0 .35rem;
   font-family: var(--display);
   font-variation-settings: "wdth" 108, "wght" 600;
   font-weight: 600;
-  font-size: 1.1875rem; letter-spacing: -.01em;
+  font-size: 1.0625rem; letter-spacing: -.008em;
 }
-.appr p { margin: 0; font-size: .9375rem; color: var(--ink-dim); line-height: 1.7; }
+.flow p { margin: 0; font-size: .9375rem; color: var(--ink-dim); line-height: 1.65; }
+.flow .tools { display: flex; gap: .35rem; flex-wrap: wrap; margin-top: .6rem; }
+
+/* the ladder — ordered, so it carries the rail */
+.ladder {
+  list-style: none;
+  margin: 0; padding: 0 0 0 1.6rem;
+  position: relative;
+  display: flex; flex-direction: column; gap: 1.7rem;
+}
+.ladder::before {
+  content: ""; position: absolute;
+  left: 3px; top: .6rem; bottom: .6rem; width: 1px;
+  background: linear-gradient(to bottom, var(--horizon), var(--route));
+  opacity: .55;
+}
+.ladder > li { position: relative; }
+.ladder > li::before {
+  content: ""; position: absolute;
+  left: -1.6rem; top: .45rem;
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--ink-faint);
+}
+.ladder > li:first-child::before { background: var(--horizon); }
+.ladder > li:last-child::before {
+  background: var(--route);
+  box-shadow: 0 0 0 4px rgba(79, 224, 168, .16);
+}
+
+/* the foundations — not a sequence, so no rail and no numbers */
+.found {
+  list-style: none; margin: 0; padding: 0;
+  display: flex; flex-direction: column; gap: 1.7rem;
+}
+.found > li { display: grid; grid-template-columns: 1rem 1fr; gap: .7rem; }
+.found > li::before {
+  content: ""; width: 6px; height: 6px; border-radius: 2px;
+  background: var(--route); margin-top: .6rem;
+}
 
 /* ---------- contact ---------- */
 .contact {
   border-top: 1px solid var(--line);
   padding-block: clamp(3rem, 7vw, 5rem);
 }
+.contact-in {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+  align-items: start;
+  margin-top: 1.2rem;
+}
+.portrait {
+  flex: none;
+  width: 7.5rem; height: 7.5rem;   /* 271px source stays sharp at 2x */
+  border-radius: 22px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+}
+.contact-in .contact-sub + .contact-sub { margin-top: .9rem; }
+
 .contact-lede {
-  margin: 1.2rem 0 0;
+  margin: 0;
   font-family: var(--display);
   font-variation-settings: "wdth" 114, "wght" 680;
   font-weight: 680;
@@ -437,6 +550,9 @@ a:focus-visible, .btn:focus-visible {
 
 @media (max-width: 820px) {
   .proj { grid-template-columns: 1fr; }
+  .interlude { grid-template-columns: 1fr; gap: .5rem; }
+  .contact-in { grid-template-columns: 1fr; }
+  .portrait { width: 6rem; height: 6rem; }
   .spec {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
     gap: 1.1rem;

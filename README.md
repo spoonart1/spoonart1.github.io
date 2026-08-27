@@ -19,11 +19,25 @@ assets/
   Lafran-Pane-CV-2026.pdf      résumé, linked from the page
   img/favicon.svg              tab icon
   img/og.png                   1200×630 share card for LinkedIn, Slack, X
-  shots/
-    swat-driver-2.svg          screenshot placeholders — replace these
-    moka-pos.svg
-    moladin-agent.svg
+  icons/                       128×128 app icon tiles, one per project
+    swat-driver-2.png
+    moka-pos.png
+    moladin-agent.png          built from Moladin's wordmark, mark cropped out
+  shots/                       app screenshots, ~900px wide, EXIF stripped
+    swat-driver-2.jpg          navigation, status + gesture bars cropped
+    moka-pos.jpg
+    moladin-agent.jpg          phone and NIK fields masked
 ```
+
+## A note on the Moladin screenshot
+
+The source graphic shows a financing application with a customer phone number and
+a **NIK** — an Indonesian national ID number. The data is placeholder ("John Doe")
+and the graphic is public Play Store material, but both identifier fields are
+pixelated in the committed file anyway. The field *labels* are left readable, so
+the screen still shows what the form captures.
+
+If you ever replace this file, mask those two fields again.
 
 ---
 
@@ -35,16 +49,17 @@ fixed aspect so the layout never shifts, shows your image whole via
 `object-fit: contain`, and fills the leftover space with a blurred, dimmed copy
 of the same image. Nothing gets stretched and nothing gets cropped.
 
-**If your file is also `.svg`,** just overwrite the placeholder — no code change.
+**If your replacement keeps the same filename and extension,** just overwrite the
+file — no code change at all.
 
-**If your file is `.png` or `.jpg`,** drop it in `assets/shots/` and update the two
-`src` attributes for that project in `index.html`. They sit next to each other:
+**If the extension differs,** drop it in `assets/shots/` and update the two `src`
+attributes for that project in `index.html`. They sit next to each other:
 
 ```html
 <figure class="shot">
-  <img class="shot-bg"  src="assets/shots/swat-driver-2.png" alt="" aria-hidden="true">
-  <img class="shot-img" src="assets/shots/swat-driver-2.png" alt="SWAT Driver app screenshot">
-  <figcaption>swat-driver-2.png</figcaption>
+  <img class="shot-bg"  src="assets/shots/swat-driver-2.jpg" alt="" aria-hidden="true">
+  <img class="shot-img" src="assets/shots/swat-driver-2.jpg" alt="Describe the screen">
+  <figcaption>Short caption shown under the frame</figcaption>
 </figure>
 ```
 
@@ -56,8 +71,17 @@ Tips:
 - Compress before committing. Aim under ~300&nbsp;KB per screenshot.
 - Two or three screenshots stitched side by side in one image works well and reads
   better than a single cramped screen.
-- To drop the filename caption once real screenshots are in, delete the
-  `<figcaption>` line.
+- The `<figcaption>` is real copy, not a filename. Say what the screen shows.
+- Strip EXIF before committing — phone captures can carry location data. The
+  Pillow one-liner in the commit history does the crop, resize and strip together.
+
+## Swapping an app icon
+
+Icons are normalised to 128×128 PNG tiles at build time, so the tile geometry on
+the page is identical whatever the source aspect. Overwrite the file in
+`assets/icons/` at 128×128 and nothing else needs to change. A non-square source
+(Moladin shipped a 730×480 wordmark) needs its mark cropped to roughly square
+first, or it will letterbox inside the tile.
 
 ---
 
@@ -66,7 +90,7 @@ Tips:
 One line in `assets/css/site.css`:
 
 ```css
-.shot { aspect-ratio: 4 / 5; }   /* portrait-ish, suits phone screenshots */
+.shot { aspect-ratio: 3 / 4; }   /* portrait-ish, suits phone screenshots */
 ```
 
 `3 / 4` is taller, `1 / 1` is square, `16 / 10` is landscape. The responsive rules
