@@ -13,4 +13,4 @@ assets/             screenshots, app icons, share card, résumé
 ```
 
 Maintenance notes — swapping screenshots and icons, the design tokens, the
-masking rules for the Moladin capture — are in [NOTES.md](NOTES.md).
+masking rules — are in [NOTES.md](NOTES.md).
