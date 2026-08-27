@@ -95,10 +95,19 @@ img, svg { max-width: 100%; }
 }
 .avatar {
   flex: none;
-  width: 1.625rem; height: 1.625rem;
+  display: block;
+  width: 1.375rem; height: 1.375rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--line);
+}
+.avatar img {
+  display: block;
+  width: 100%; height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid var(--line);
+  object-position: 50% 25%;
 }
 .bar-nav { display: flex; gap: 1.4rem; }
 .bar-nav a {
@@ -504,8 +513,9 @@ img, svg { max-width: 100%; }
 .portrait {
   flex: none;
   width: 7.5rem; height: 7.5rem;   /* 271px source stays sharp at 2x */
-  border-radius: 22px;
+  border-radius: 50%;
   object-fit: cover;
+  object-position: 50% 25%;
   border: 1px solid var(--line);
 }
 .contact-in .contact-sub + .contact-sub { margin-top: .9rem; }
