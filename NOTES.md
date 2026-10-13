@@ -115,15 +115,14 @@ Keep the dimensions — LinkedIn and Slack both expect 1.91:1.
 
 ## Design notes
 
-Direction is **"5 a.m. dashboard"** — the hour a driver opens a dispatch app.
+Direction is **"paper"** — clean, simple and modern on an antique white ground.
 
-- **Palette.** Material 3 tonal layering on green-tinted neutrals rather than flat
-  black. Two accents only: `--route` (`#4FE0A8`, the nav route line) and
-  `--horizon` (`#E8B25C`, the amber behind it). All tokens are at the top of
-  `site.css`.
-- **Type.** Archivo on its expanded width axis for display, IBM Plex Sans for body,
-  IBM Plex Mono for every number and label. Mono numbers are tabular so the
-  before/after figures line up.
+- **Palette.** Antique white (`--ground`, `#FAEBD7`) as the primary surface, with
+  lighter cards (`--surf`) and warm dark ink. Two accents only: `--route`
+  (`#2E6B57`, deep green, the destination) and `--horizon` (`#9A6A32`, warm
+  amber-brown, the origin). All tokens are at the top of `site.css`.
+- **Type.** Inter for display and body, IBM Plex Mono for every number and label.
+  Mono numbers are tabular so the before/after figures line up.
 - **The route track** is the signature device. A dim origin, a lit destination, the
   distance drawn between them. It repeats on every claim, and flexes to say two
   things: *moved* (82% → 99.3%) and *held* (`.vital.held`, for a sustained figure).
