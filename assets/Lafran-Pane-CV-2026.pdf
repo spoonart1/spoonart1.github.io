@@ -12,137 +12,135 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 7 0 R /F2 8 0 R /F3 9 0 R >> >> >>
 endobj
 5 0 obj
-<< /Length 7667 >>
+<< /Length 7632 >>
 stream
-BT /F2 17 Tf 0.08 0.20 0.40 rg 187.98 756.00 Td (MUHAMMAD LAFRAN PANE) Tj ET
-BT /F2 9.8 Tf 0.20 0.20 0.20 rg 157.04 743.00 Td (Founding Mobile Engineer \(Cross-Platform & Native Architecture\)) Tj ET
-BT /F1 8.5 Tf 0.25 0.25 0.25 rg 199.92 732.00 Td (Remote  |  +1 \(206\) 538-6505  |  lafran.work@gmail.com) Tj ET
-BT /F1 8.5 Tf 0.10 0.30 0.55 rg 138.90 722.00 Td (linkedin.com/in/m-lafran-pane-39593913a  |  github.com/spoonart1  |  spoonart1.github.io) Tj ET
-0.80 0.80 0.80 RG 0.75 w 36.00 715.00 m 576.00 715.00 l S
-BT /F2 10.5 Tf 0.08 0.22 0.45 rg 36.00 696.00 Td (PROFESSIONAL SUMMARY) Tj ET
-0.08 0.22 0.45 RG 0.75 w 36.00 692.00 m 576.00 692.00 l S
-BT /F1 8.5 Tf 0.15 0.15 0.15 rg 36.00 684.00 Td (Founding Mobile Engineer & former Gojek Engineering Manager with 10+ years of deep technical experience architecting, building, and) Tj ET
-BT /F1 8.5 Tf 0.15 0.15 0.15 rg 36.00 672.80 Td (scaling production mobile applications from 0-to-1. Combines rapid cross-platform execution \(React Native / Expo\) with deep native) Tj ET
-BT /F1 8.5 Tf 0.15 0.15 0.15 rg 36.00 661.60 Td (foundations \(Android, Kotlin, Swift\) to build high-performance, crash-resilient iOS and Android applications. Experienced in full product delivery) Tj ET
-BT /F1 8.5 Tf 0.15 0.15 0.15 rg 36.00 650.40 Td (- designing offline-first architectures, integrating modern BaaS/APIs \(Supabase, Firebase, REST/GraphQL\), and establishing automated CI/CD) Tj ET
-BT /F1 8.5 Tf 0.15 0.15 0.15 rg 36.00 639.20 Td (pipelines from scratch. Offers exceptional business empathy, total autonomy, and architectural maturity without requiring day-to-day) Tj ET
-BT /F1 8.5 Tf 0.15 0.15 0.15 rg 36.00 628.00 Td (supervision. Proven impact: raised Gojek crash-free stability from 82% to 99.3% in 60 days, executed a 90-table zero-downtime database) Tj ET
-BT /F1 8.5 Tf 0.15 0.15 0.15 rg 36.00 616.80 Td (migration, and deployed autonomous AI coding agents that slashed feature turnaround times from days to hours.) Tj ET
-BT /F2 10.5 Tf 0.08 0.22 0.45 rg 36.00 591.60 Td (CORE TECHNICAL SKILLS) Tj ET
-0.08 0.22 0.45 RG 0.75 w 36.00 587.60 m 576.00 587.60 l S
-BT /F2 8.5 Tf 0.10 0.10 0.10 rg 42.00 579.60 Td (Mobile & Cross-Platform: ) Tj ET
-BT /F1 8.5 Tf 0.15 0.15 0.15 rg 143.66 579.60 Td (React Native, Expo, TypeScript, Android SDK, Jetpack Compose, Kotlin, Swift, Native Modules / Bridges) Tj ET
-BT /F2 8.5 Tf 0.10 0.10 0.10 rg 42.00 568.60 Td (Architecture & Backend Sync: ) Tj ET
-BT /F1 8.5 Tf 0.15 0.15 0.15 rg 162.54 568.60 Td (Offline-First Sync, Clean Architecture, Supabase, Firebase, REST / GraphQL, SQL, Multi-Module Systems) Tj ET
-BT /F2 8.5 Tf 0.10 0.10 0.10 rg 42.00 557.60 Td (Delivery & Monetization: ) Tj ET
-BT /F1 8.5 Tf 0.15 0.15 0.15 rg 140.70 557.60 Td (Fastlane, Automated CI/CD Pipelines, In-App Subscriptions \(RevenueCat / Stripe\), Google Play Console, App) Tj ET
-BT /F1 8.5 Tf 0.15 0.15 0.15 rg 42.00 546.60 Td (Store) Tj ET
-BT /F2 8.5 Tf 0.10 0.10 0.10 rg 42.00 535.60 Td (Testing & Quality: ) Tj ET
-BT /F1 8.5 Tf 0.15 0.15 0.15 rg 114.92 535.60 Td (App Stability / Crash Monitoring, JUnit, Jest, Espresso, Playwright, Appium, Code Review & Conventions) Tj ET
-BT /F2 8.5 Tf 0.10 0.10 0.10 rg 42.00 524.60 Td (AI & Modern Tooling: ) Tj ET
-BT /F1 8.5 Tf 0.15 0.15 0.15 rg 128.31 524.60 Td (AI Coding Agents, Claude Code, Cursor, Workflow Automation, Zero-Ceremony Startup Velocity) Tj ET
-BT /F2 10.5 Tf 0.08 0.22 0.45 rg 36.00 499.60 Td (PROFESSIONAL EXPERIENCE) Tj ET
-0.08 0.22 0.45 RG 0.75 w 36.00 495.60 m 576.00 495.60 l S
-BT /F2 9.5 Tf 0.10 0.10 0.10 rg 36.00 487.60 Td (SWAT Mobility | Singapore \(Remote\)) Tj ET
-BT /F2 9.0 Tf 0.20 0.20 0.20 rg 496.16 487.60 Td (Jun 2023 - Present) Tj ET
-BT /F3 9.0 Tf 0.15 0.25 0.45 rg 36.00 475.60 Td (Senior Mobile Engineer / Tech Lead \(Contract, Full-time\)) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 464.60 Td (* End-to-End Product Ownership: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 179.83 464.60 Td (Own mobile delivery end-to-end across two core operational logistics flows, driving architecture,) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 453.80 Td (multi-region reliability, and release velocity.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 443.00 Td (* Core Navigation & Maps: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 153.35 443.00 Td (Architected and delivered custom navigation and route-optimization mapping experience used daily by enterprise) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 432.20 Td (drivers and operational dispatchers.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 421.40 Td (* Cross-Platform & Compose Modernization: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 222.94 421.40 Td (Spearheaded zero-downtime migration of core map and operational flows to modern) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 410.60 Td (declarative UI, optimizing render performance and cross-platform alignment.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 399.80 Td (* Clean Modular Architecture: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 164.62 399.80 Td (Redesigned a monolithic codebase into a multi-module Clean Architecture system, establishing strict) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 389.00 Td (boundaries between feature layers and core infrastructure.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 378.20 Td (* Automated CI/CD from Scratch: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 179.32 378.20 Td (Built complete CI/CD automation using Fastlane and Gradle, eliminating manual release overhead across) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 367.40 Td (multiple app stores.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 356.60 Td (* AI-Assisted Development Velocity: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 190.11 356.60 Td (Built and deployed AI-assisted coding agents automating UI scaffolding, lightweight bug fixes, and PR) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 345.80 Td (reviews - reducing task turnaround from days to hours.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 335.00 Td (* Global Multi-Localization: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 153.83 335.00 Td (Scaled localization architecture across English, Indonesian, Vietnamese, Thai, and Japanese, supporting) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 324.20 Td (enterprise operations in UAE, Singapore, Japan, and Thailand.) Tj ET
-BT /F2 9.5 Tf 0.10 0.10 0.10 rg 36.00 309.40 Td (Moladin | Indonesia \(Remote\)) Tj ET
-BT /F2 9.0 Tf 0.20 0.20 0.20 rg 487.23 309.40 Td (Nov 2022 - Feb 2023) Tj ET
-BT /F3 9.0 Tf 0.15 0.25 0.45 rg 36.00 297.40 Td (Senior Mobile Developer) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 286.40 Td (* Field Workflow Optimization: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 167.05 286.40 Td (Engineered key mobile features supporting field sales operations, making field transaction logging and) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 275.60 Td (verification workflows substantially more efficient.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 264.80 Td (* CI/CD Infrastructure: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 136.18 264.80 Td (Introduced automated CI/CD pipelines with Jenkins for the mobile team, creating a repeatable, deterministic base for) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 254.00 Td (builds and releases.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 243.20 Td (* Engineering Quality & Mentorship: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 189.14 243.20 Td (Mentored engineers on clean, maintainable, and scalable coding practices; elevated code quality) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 232.40 Td (through structured peer reviews and conventions.) Tj ET
-BT /F1 7.5 Tf 0.5 0.5 0.5 rg 191.49 20 Td (Muhammad Lafran Pane  |  Page 1 of 2  |  Founding Mobile Engineer) Tj ET
+BT /F2 17.00 Tf 0.08 0.20 0.40 rg 190.80 756.00 Td (MUHAMMAD LAFRAN PANE) Tj ET
+BT /F2 9.80 Tf 0.20 0.20 0.20 rg 152.99 742.00 Td (Founding Mobile Engineer \(Cross-Platform & Native Architecture\)) Tj ET
+BT /F1 8.50 Tf 0.25 0.25 0.25 rg 199.92 730.00 Td (Remote  |  +1 \(206\) 538-6505  |  lafran.work@gmail.com) Tj ET
+BT /F1 8.50 Tf 0.10 0.30 0.55 rg 138.90 719.00 Td (linkedin.com/in/m-lafran-pane-39593913a  |  github.com/spoonart1  |  spoonart1.github.io) Tj ET
+0.80 0.80 0.80 RG 0.75 w 36.00 712.00 m 576.00 712.00 l S
+BT /F2 10.50 Tf 0.08 0.22 0.45 rg 36.00 694.00 Td (PROFESSIONAL SUMMARY) Tj ET
+0.08 0.22 0.45 RG 0.75 w 36.00 690.00 m 576.00 690.00 l S
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 36.00 681.00 Td (Founding Mobile Engineer & former Gojek Engineering Manager with 11+ years of deep technical experience architecting, building, and scaling) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 36.00 669.50 Td (production mobile applications from 0-to-1. Combines rapid cross-platform execution \(React Native / Expo\) with deep native foundations) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 36.00 658.00 Td (\(Android, Kotlin, Compose, Swift\) to build high-performance, crash-resilient iOS and Android applications. Experienced in full product delivery:) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 36.00 646.50 Td (offline-first architectures, integrating BaaS/APIs \(Supabase, Firebase, REST/GraphQL\), and establishing automated CI/CD pipelines from) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 36.00 635.00 Td (scratch. Offers exceptional business empathy, total autonomy, and architectural maturity without requiring day-to-day supervision. Proven) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 36.00 623.50 Td (impact: raised Gojek crash-free stability from 82% to 99.3% in 60 days, executed a 90-table zero-downtime database migration, built solo) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 36.00 612.00 Td (delivery logistics scaling to 10k+ daily orders across 5 countries, and deployed autonomous AI coding agents that accelerated feature) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 36.00 600.50 Td (turnaround by up to 70%.) Tj ET
+BT /F2 10.50 Tf 0.08 0.22 0.45 rg 36.00 582.00 Td (CORE TECHNICAL SKILLS) Tj ET
+0.08 0.22 0.45 RG 0.75 w 36.00 578.00 m 576.00 578.00 l S
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 42.00 569.00 Td (Mobile & Cross-Platform: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 149.85 569.00 Td (React Native, Expo, TypeScript, Android SDK, Jetpack Compose, Kotlin, Swift, SwiftUI, Native Modules) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 42.00 557.20 Td (Architecture & Backend Sync: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 169.70 557.20 Td (Offline-First Sync, Clean Architecture, Supabase, Firebase, REST / GraphQL, SQL, Multi-Module Systems) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 42.00 545.40 Td (Delivery & Monetization: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 146.55 545.40 Td (Fastlane, Automated CI/CD Pipelines, In-App Subscriptions \(Stripe/RevenueCat\), Google Play, App Store, EAS) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 42.00 533.60 Td (Testing & Quality: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 120.57 533.60 Td (App Stability / Crash Monitoring, JUnit, JaCoCo \(80% coverage\), Detekt, Playwright, Appium, BDD \(Gherkin\)) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 42.00 521.80 Td (AI & Modern Tooling: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 133.78 521.80 Td (AI Coding Agents, Claude Code, Cursor, Workflow Automation, Zero-Ceremony Startup Velocity) Tj ET
+BT /F2 10.50 Tf 0.08 0.22 0.45 rg 36.00 502.00 Td (PROFESSIONAL EXPERIENCE) Tj ET
+0.08 0.22 0.45 RG 0.75 w 36.00 498.00 m 576.00 498.00 l S
+BT /F2 9.50 Tf 0.10 0.10 0.10 rg 36.00 489.00 Td (SWAT Mobility | Singapore \(Remote\)) Tj ET
+BT /F2 9.00 Tf 0.20 0.20 0.20 rg 486.00 489.00 Td (Jun 2023 - Present) Tj ET
+BT /F3 9.00 Tf 0.15 0.25 0.45 rg 36.00 477.00 Td (Senior Mobile Engineer / Tech Lead \(Contract, Full-time\)) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 465.00 Td (* Solo Logistics Delivery \(0 to 1\): ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 184.62 465.00 Td (Designed and built delivery product solo on SWAT's routing engine; live across 5 countries \(Singapore,) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 454.00 Td (UAE, Japan, Philippines, Thailand\) handling 10,000+ daily orders and opening B2B retail revenue.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 441.00 Td (* Map SDK Rescue & Compose Migration: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 221.45 441.00 Td (Replaced an outdated forked Map SDK blocked by Google Play's 16KB native page-size) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 430.00 Td (requirement; migrated 10 map screens across phone and tablet to Jetpack Compose in 1.5 months, unblocking store releases.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 417.00 Td (* Multi-Module Architecture Rebuild: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 199.23 417.00 Td (Rebuilt legacy monolithic codebase into 37 multi-modules, reducing Gradle build times from 8-10) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 406.00 Td (minutes down to 3-4 minutes while establishing strict domain boundaries.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 393.00 Td (* Quality & Test Infrastructure: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 176.11 393.00 Td (Elevated unit test coverage from 0% to 80% \(verified via JaCoCo reports\) and standardized team-wide) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 382.00 Td (coding conventions with Detekt static analysis.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 369.00 Td (* Zero-Touch CI/CD from Scratch: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 187.90 369.00 Td (Built complete CI/CD automation using Fastlane, eliminating manual release overhead with automated) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 358.00 Td (testing and publishing to Google Play, Firebase Distribution, and Huawei AppGallery.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 345.00 Td (* AI-Assisted Development Velocity: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 198.32 345.00 Td (Built and deployed custom AI coding agents for UI automation, crash triage, and PR review,) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 334.00 Td (accelerating team delivery throughput by up to 70%.) Tj ET
+BT /F2 9.50 Tf 0.10 0.10 0.10 rg 36.00 315.00 Td (Moladin | Indonesia \(Remote\)) Tj ET
+BT /F2 9.00 Tf 0.20 0.20 0.20 rg 486.00 315.00 Td (Nov 2022 - Feb 2023) Tj ET
+BT /F3 9.00 Tf 0.15 0.25 0.45 rg 36.00 303.00 Td (Senior Mobile Developer) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 291.00 Td (* Field Workflow Optimization: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 175.15 291.00 Td (Engineered key mobile features supporting vehicle financing sales operations, significantly streamlining) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 280.00 Td (transaction logging and field verification workflows.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 267.00 Td (* CI/CD Infrastructure: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 141.62 267.00 Td (Introduced the company's first automated CI/CD pipeline on Jenkins for the mobile team, creating a repeatable,) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 256.00 Td (deterministic base for staging and production builds.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 243.00 Td (* Engineering Quality & Mentorship: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 198.31 243.00 Td (Mentored engineers on maintainable, scalable coding practices; elevated code quality through) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 232.00 Td (structured peer reviews and conventions.) Tj ET
+BT /F1 7.50 Tf 0.50 0.50 0.50 rg 191.49 22.00 Td (Muhammad Lafran Pane  |  Page 1 of 2  |  Founding Mobile Engineer) Tj ET
 endstream
 endobj
 6 0 obj
-<< /Length 6340 >>
+<< /Length 6775 >>
 stream
-BT /F2 10.5 Tf 0.08 0.22 0.45 rg 36.00 742.00 Td (PROFESSIONAL EXPERIENCE \(CONTINUED\)) Tj ET
+BT /F2 10.50 Tf 0.08 0.22 0.45 rg 36.00 742.00 Td (PROFESSIONAL EXPERIENCE \(CONTINUED\)) Tj ET
 0.08 0.22 0.45 RG 0.75 w 36.00 738.00 m 576.00 738.00 l S
-BT /F2 9.5 Tf 0.10 0.10 0.10 rg 36.00 730.00 Td (Gojek \(Moka, GoTo Group\) | Indonesia) Tj ET
-BT /F2 9.0 Tf 0.20 0.20 0.20 rg 488.80 730.00 Td (Jan 2021 - Feb 2022) Tj ET
-BT /F3 9.0 Tf 0.15 0.25 0.45 rg 36.00 718.00 Td (Engineering Manager \(Technical Lead / Mobile\)) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 707.00 Td (* Crash Stability Turnaround: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 162.66 707.00 Td (Raised Android crash-free users from 82% to 99.3% in under two months by diagnosing root-cause failure) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 696.20 Td (points, eliminating memory leaks, and enforcing strict stability SLAs.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 685.40 Td (* Team & Delivery Leadership: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 169.03 685.40 Td (Managed a 13-person cross-functional team of mobile, QA, and backend engineers, delivering complex) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 674.60 Td (product features on time to high engineering standards.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 663.80 Td (* System Design & Architecture: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 174.91 663.80 Td (Made key architectural decisions across mobile and backend, guiding technical proposals and balancing) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 653.00 Td (feature velocity against technical debt paydown.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 642.20 Td (* Mentorship & Engineering Standards: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 201.89 642.20 Td (Coached engineers on system design and clean code; instituted automated testing with Appium and) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 631.40 Td (standardized release procedures.) Tj ET
-BT /F2 9.5 Tf 0.10 0.10 0.10 rg 36.00 616.60 Td (Moka POS \(Acquired by Gojek\) | Indonesia) Tj ET
-BT /F2 9.0 Tf 0.20 0.20 0.20 rg 488.28 616.60 Td (Nov 2018 - Jan 2021) Tj ET
-BT /F3 9.0 Tf 0.15 0.25 0.45 rg 36.00 604.60 Td (Senior Mobile Engineer) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 593.60 Td (* 90-Table Zero-Downtime Migration: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 194.02 593.60 Td (Migrated core offline-first storage from raw SQL queries to Room across 90 database tables, rolled) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 582.80 Td (out gradually over 6 months without merchant disruption.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 572.00 Td (* Critical POS Capabilities: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 153.82 572.00 Td (Shipped four complex merchant POS capabilities in under six months, including checkout, KYC/KYB registration,) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 561.20 Td (card/QR payments, and hardware receipt printing.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 550.40 Td (* MokaPay Architecture: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 144.03 550.40 Td (Architected 'MokaPay', a lightweight standalone POS application reusing the existing codebase with a reduced) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 539.60 Td (surface for high-volume transactions.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 528.80 Td (* Modern Background Sync: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 159.24 528.80 Td (Modernized 27 outdated synchronization components affected by Android OS changes, eliminating the) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 518.00 Td (application's most frequent background crash.) Tj ET
-BT /F2 9.5 Tf 0.10 0.10 0.10 rg 36.00 503.20 Td (Docotel Group | Indonesia) Tj ET
-BT /F2 9.0 Tf 0.20 0.20 0.20 rg 493.53 503.20 Td (Jul 2017 - Oct 2018) Tj ET
-BT /F3 9.0 Tf 0.15 0.25 0.45 rg 36.00 491.20 Td (Lead Mobile Developer) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 480.20 Td (* Client Mobile Solutions: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 147.47 480.20 Td (Directed mobile development of enterprise client apps on Android and iOS from initial technical planning through) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 469.40 Td (store release.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 458.60 Td (* Multi-Variant Architecture: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 156.77 458.60 Td (Delivered and released multiple variants of client apps, adapting core functionality to diverse business) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 447.80 Td (requirements without sacrificing code quality.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 46.00 437.00 Td (* Full-Stack Alignment: ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 138.64 437.00 Td (Collaborated with Golang backend engineering teams to ensure low-latency API contracts and reliable mobile) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 46.00 426.20 Td (synchronization.) Tj ET
-BT /F2 10.5 Tf 0.08 0.22 0.45 rg 36.00 401.40 Td (EARLY CAREER HISTORY \(2011 - 2017\)) Tj ET
-0.08 0.22 0.45 RG 0.75 w 36.00 397.40 m 576.00 397.40 l S
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 42.00 389.40 Td (Mobile Frontend Developer \(Android & iOS\) - PT Indiva Finansia Teknologi \(Jun 2015 - Jun 2017\): ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 427.79 389.40 Td (Built native Android \(Java\) and iOS) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 42.00 378.60 Td (\(Swift 3\) financial client interfaces adhering to Google Material Design guidelines.) Tj ET
-BT /F2 8.4 Tf 0.10 0.10 0.10 rg 42.00 367.80 Td (Project Manager & Game Developer - Agate \(Dec 2011 - Oct 2014\): ) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 309.65 367.80 Td (Shipped cross-platform game titles across iOS, Android, and Windows) Tj ET
-BT /F1 8.4 Tf 0.15 0.15 0.15 rg 42.00 357.00 Td (with Unity \(C#\) and Flash \(ActionScript 3.0\).) Tj ET
-BT /F2 10.5 Tf 0.08 0.22 0.45 rg 36.00 332.20 Td (LANGUAGES & PROFESSIONAL COMPETENCIES) Tj ET
-0.08 0.22 0.45 RG 0.75 w 36.00 328.20 m 576.00 328.20 l S
-BT /F2 8.5 Tf 0.15 0.15 0.15 rg 42.00 320.20 Td (English \(Professional Working Proficiency\) * Indonesian \(Native Proficiency\)) Tj ET
-BT /F3 8.2 Tf 0.15 0.15 0.15 rg 42.00 309.20 Td (Core Engineering Philosophy: Autonomous 0-to-1 execution, high-stability production architectures, zero-ceremony startup velocity, and) Tj ET
-BT /F3 8.2 Tf 0.15 0.15 0.15 rg 42.00 298.70 Td (continuous mastery of modern AI developer tooling.) Tj ET
-BT /F1 7.5 Tf 0.5 0.5 0.5 rg 191.49 20 Td (Muhammad Lafran Pane  |  Page 2 of 2  |  Founding Mobile Engineer) Tj ET
+BT /F2 9.50 Tf 0.10 0.10 0.10 rg 36.00 729.00 Td (Gojek \(Moka, GoTo Group\) | Indonesia) Tj ET
+BT /F2 9.00 Tf 0.20 0.20 0.20 rg 488.00 729.00 Td (Jan 2021 - Feb 2022) Tj ET
+BT /F3 9.00 Tf 0.15 0.25 0.45 rg 36.00 717.00 Td (Engineering Manager \(Technical Lead / Mobile\)) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 705.00 Td (* Cross-Functional Team Leadership: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 203.03 705.00 Td (Managed a 13-person cross-functional engineering team \(Android, QA, Backend\); set OKRs,) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 694.00 Td (engineering quality standards, and technical roadmaps for a platform serving 1M+ merchants.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 681.00 Td (* Operational Stability Turnaround: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 193.58 681.00 Td (Championed crash-free stability as the headline team objective, driving operational SLAs, fixing) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 670.00 Td (memory leaks, and eliminating runtime bottlenecks.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 657.00 Td (* System Design & Architectural Governance: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 237.06 657.00 Td (Guided key technical proposals across mobile and backend services, balancing rapid) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 646.00 Td (product delivery against technical debt paydown.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 633.00 Td (* Engineering Mentorship & Standards: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 211.06 633.00 Td (Coached engineers on system design and clean code; instituted automated UI regression testing) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 622.00 Td (with Appium and standardized release criteria.) Tj ET
+BT /F2 9.50 Tf 0.10 0.10 0.10 rg 36.00 601.00 Td (Moka POS \(Acquired by Gojek\) | Indonesia) Tj ET
+BT /F2 9.00 Tf 0.20 0.20 0.20 rg 488.00 601.00 Td (Nov 2018 - Jan 2021) Tj ET
+BT /F3 9.00 Tf 0.15 0.25 0.45 rg 36.00 589.00 Td (Lead Android Engineer) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 577.00 Td (* 27 Silent Syncs Resolved & 99.3% Stability: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 234.25 577.00 Td (Uncovered 27 broken background syncs causing missing transactions and merchant) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 566.00 Td (discrepancies; led 12 Android engineers on a gradual 2-month migration to modern Android APIs, dropping sync failures to near-zero and) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 555.00 Td (lifting crash-free users from 82% to 99.3%.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 542.00 Td (* KYC/KYB Self-Registration Rescue: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 202.08 542.00 Td (Took ownership of a critical merchant self-registration project estimated at 6 months; streamlined) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 531.00 Td (scope and shipped in 1.5 months, driving a 10x increase in self-registered merchant conversions.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 518.00 Td (* 90-Table Zero-Downtime Migration: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 200.19 518.00 Td (Architected and executed migration of offline-first storage from raw SQL queries to Room across 90) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 507.00 Td (database tables, rolled out gradually over 6 months with zero merchant downtime.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 494.00 Td (* MokaPay Architecture: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 150.14 494.00 Td (Architected 'MokaPay', a lightweight standalone POS variant reusing core client architecture with a reduced) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 483.00 Td (footprint for high-volume transactions.) Tj ET
+BT /F2 9.50 Tf 0.10 0.10 0.10 rg 36.00 462.00 Td (Docotel Group | Indonesia) Tj ET
+BT /F2 9.00 Tf 0.20 0.20 0.20 rg 492.00 462.00 Td (Jul 2017 - Oct 2018) Tj ET
+BT /F3 9.00 Tf 0.15 0.25 0.45 rg 36.00 450.00 Td (Lead Mobile Developer) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 438.00 Td (* Enterprise Mobile Delivery: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 167.62 438.00 Td (Directed client-side mobile engineering on Android and iOS for enterprise client applications from technical) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 427.00 Td (specifications through store deployments.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 414.00 Td (* Multi-Variant Architecture: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 164.77 414.00 Td (Delivered and maintained multiple client app variants, tailoring features to client-specific requirements while) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 403.00 Td (sharing a clean, reusable core codebase.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 46.00 390.00 Td (* Full-Stack Alignment: ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 145.40 390.00 Td (Partnered with Golang backend teams to design low-latency API contracts and robust offline-first synchronization) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 46.00 379.00 Td (protocols.) Tj ET
+BT /F2 10.50 Tf 0.08 0.22 0.45 rg 36.00 357.00 Td (EARLY CAREER HISTORY \(2011 - 2017\)) Tj ET
+0.08 0.22 0.45 RG 0.75 w 36.00 353.00 m 576.00 353.00 l S
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 42.00 344.00 Td (Mobile Frontend Developer \(Android & iOS\) - PT Indiva Finansia Teknologi \(Jun 2015 - Jun 2017\): ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 440.40 344.00 Td (Built native Android \(Java\) and iOS) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 42.00 333.00 Td (\(Swift\) financial client interfaces adhering strictly to Material Design standards.) Tj ET
+BT /F2 8.50 Tf 0.10 0.10 0.10 rg 42.00 320.00 Td (Co-Founder & Game Developer - Agate Jogja Studio \(Dec 2011 - Oct 2014\): ) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 350.19 320.00 Td (Co-founded local game studio; shipped cross-platform) Tj ET
+BT /F1 8.50 Tf 0.15 0.15 0.15 rg 42.00 309.00 Td (game titles across iOS, Android, and Windows with Unity \(C#\) and Flash \(ActionScript 3.0\) on constrained startup budgets.) Tj ET
+BT /F2 10.50 Tf 0.08 0.22 0.45 rg 36.00 287.00 Td (LANGUAGES & PROFESSIONAL COMPETENCIES) Tj ET
+0.08 0.22 0.45 RG 0.75 w 36.00 283.00 m 576.00 283.00 l S
+BT /F2 8.50 Tf 0.15 0.15 0.15 rg 42.00 274.00 Td (English \(Professional Working Proficiency\)  |  Indonesian \(Native Proficiency\)) Tj ET
+BT /F3 8.30 Tf 0.15 0.15 0.15 rg 42.00 262.00 Td (Core Engineering Philosophy: Autonomous 0-to-1 execution, high-stability production architectures, zero-ceremony startup velocity, and) Tj ET
+BT /F3 8.30 Tf 0.15 0.15 0.15 rg 42.00 251.00 Td (continuous mastery of modern AI developer tooling.) Tj ET
+BT /F1 7.50 Tf 0.50 0.50 0.50 rg 191.49 22.00 Td (Muhammad Lafran Pane  |  Page 2 of 2  |  Founding Mobile Engineer) Tj ET
 endstream
 endobj
 7 0 obj
@@ -162,12 +160,12 @@ xref
 0000000121 00000 n 
 0000000267 00000 n 
 0000000413 00000 n 
-0000008132 00000 n 
-0000014524 00000 n 
-0000014594 00000 n 
-0000014669 00000 n 
+0000008097 00000 n 
+0000014924 00000 n 
+0000014994 00000 n 
+0000015069 00000 n 
 trailer
 << /Size 10 /Root 1 0 R /Info << /Title (Muhammad Lafran Pane - Founding Mobile Engineer Resume) /Author (Muhammad Lafran Pane) /Creator (ATS PDF Builder) >> >>
 startxref
-14747
+15147
 %%EOF
