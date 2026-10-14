@@ -115,21 +115,22 @@ Keep the dimensions — LinkedIn and Slack both expect 1.91:1.
 
 ## Design notes
 
-Direction is **"paper"** — clean, simple and modern on an antique white ground.
+Direction is **"flat paper"** — calm, minimalist, professional, on an antique white ground.
 
 - **Palette.** Antique white (`--ground`, `#FAEBD7`) as the primary surface, with
-  lighter cards (`--surf`) and warm dark ink. Two accents only: `--route`
-  (`#2E6B57`, deep green, the destination) and `--horizon` (`#9A6A32`, warm
-  amber-brown, the origin). All tokens are at the top of `site.css`.
-- **Type.** Inter for display and body, IBM Plex Mono for every number and label.
-  Mono numbers are tabular so the before/after figures line up.
-- **The route track** is the signature device. A dim origin, a lit destination, the
-  distance drawn between them. It repeats on every claim, and flexes to say two
-  things: *moved* (82% → 99.3%) and *held* (`.vital.held`, for a sustained figure).
-  Tracks draw once, on scroll, via one `IntersectionObserver`.
-- **Accessibility.** Skip link, visible focus rings, decorative rails hidden from
-  screen readers, and `prefers-reduced-motion` renders every track in its final
-  state.
+  flat tonal card containers (`--surf`, `#F5E5D0`), crisp 1px borders (`--line`,
+  `#DEC6A8`), and warm dark ink. Accents: `--route` (`#245E4D`, deep pine green)
+  and `--horizon` (`#8C5E28`, warm amber). All tokens are at the top of `site.css`.
+- **Aesthetic.** Flat and distraction-free: no blurry drop shadows, no floating
+  card lifts. Clean typography, generous breathing room, crisp borders.
+- **Positioning.** Hooked for startup founders looking for a Founding Mobile Engineer
+  or Late Co-Founder (0 → 1 ownership).
+- **Type.** Inter for display and body, IBM Plex Mono for numbers and labels.
+- **Case studies.** Selected projects include collapsible case studies detailing
+  context, engineering action, and concrete business outcomes, built on semantic
+  `<details>` / `<summary>` tags without framework dependencies.
+- **Accessibility.** Skip link, visible focus rings, clean semantic HTML, and
+  respect for `prefers-reduced-motion`.
 
 ---
 
