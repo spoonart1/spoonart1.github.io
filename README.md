@@ -1,6 +1,6 @@
 # spoonart1.github.io
 
-Portfolio landing page for **Muhammad Lafran Pane** — Senior Android Engineer.
+Portfolio landing page for **Muhammad Lafran Pane** — Founding Mobile Engineer.
 Live at **https://spoonart1.github.io/**
 
 Plain static HTML and CSS. No framework, no build step, no tracking. Push to
