@@ -162,10 +162,131 @@
   <section class="wrap sec" id="work">
     <div class="sec-head">
       <p class="eyebrow eyebrow-lit">Selected work</p>
-      <p class="eyebrow">2018 — 2026</p>
+      <p class="eyebrow">2018 — Present</p>
     </div>
 
     <div class="projects">
+
+      <!-- ALORA STUDIO ------------------------------------------------- -->
+      <article class="proj">
+        <div class="spec">
+          <div class="spec-row">
+            <div class="spec-k">Role</div>
+            <div class="spec-v">Creator &amp; Solo Mobile Engineer</div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-k">Org</div>
+            <div class="spec-v">Alora Studio (Open Source)</div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-k">Years</div>
+            <div class="spec-v">2026 — Present · Active</div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-k">Domain</div>
+            <div class="spec-v">Operations &amp; Mini-ERP · Interior Design · B2B SaaS</div>
+          </div>
+        </div>
+
+        <div>
+          <div class="proj-title">
+            <img class="proj-icon" src="assets/icons/alora-studio.png" width="128" height="128"
+                 alt="" aria-hidden="true">
+            <h2 class="proj-name">Alora Studio</h2>
+          </div>
+          <p class="proj-desc">
+            Open-source operational management and mini-ERP for interior design studios, architects,
+            and custom workshops. Built cross-platform with full offline-first mode, multi-board Kanban,
+            itemized quotations, and milestone invoicing.
+          </p>
+
+          <ul class="shipped">
+            <li>Built an offline-first sync engine with local AsyncStorage cache, mutation outbox queue, and automatic background sync to Supabase</li>
+            <li>Architected a multi-board Kanban system with automated workflow triggers from client lead conversion to production stage</li>
+            <li>Engineered quotation and RAB calculation engine with automated Indonesian Rupiah formatting and client-ready PDF generation</li>
+            <li>Designed progressive milestone invoicing (DP, intermediate milestones, final settlement) with payment receipt tracking</li>
+            <li>Universal codebase running across Web Desktop, Tablets, and Mobile (iOS &amp; Android) via React Native and Expo Router</li>
+          </ul>
+
+          <div class="cases">
+            <p class="cases-k">Case studies</p>
+
+            <details class="case" open>
+              <summary>
+                <span class="case-title">Offline-first sync engine for remote job sites</span>
+                <span class="case-result">0ms instant load · background outbox sync</span>
+              </summary>
+              <dl class="case-body">
+                <dt>Context</dt>
+                <dd>
+                  Interior designers and workshop fabricators frequently work on active construction sites,
+                  basements, or workshops with spotty or zero internet connectivity. Standard cloud ERPs
+                  fail to load or lose uncommitted changes in low-signal environments.
+                </dd>
+                <dt>What I did</dt>
+                <dd>
+                  Architected an offline-first storage and sync pipeline. Dashboards, boards, quotations, and invoices
+                  load instantly from local cache (AsyncStorage). Mutations are written locally to an outbox queue and
+                  synchronized silently to Supabase in the background as soon as connectivity is restored.
+                </dd>
+                <dt>Outcome</dt>
+                <dd class="case-out">
+                  Zero data loss during on-site inspections, 0ms instant data loading, and seamless background
+                  reconciliation without requiring page reloads or user intervention.
+                </dd>
+              </dl>
+            </details>
+
+            <details class="case">
+              <summary>
+                <span class="case-title">Lead-to-production workflow automation</span>
+                <span class="case-result">Automated handoff · milestone tracking</span>
+              </summary>
+              <dl class="case-body">
+                <dt>Context</dt>
+                <dd>
+                  Custom design studios frequently struggle with handoffs between client sales negotiations and
+                  workshop fabrication. Manual transfer of specifications and deadlines leads to miscommunication,
+                  forgotten deliverables, and project delivery delays.
+                </dd>
+                <dt>What I did</dt>
+                <dd>
+                  Engineered automated multi-board state transitions in Redux Toolkit. When a client lead card advances
+                  to Down Payment (DP) on the Marketing Board, it automatically spawns a linked card in the
+                  Production Board with auto-computed deadlines and itemized room specifications.
+                </dd>
+                <dt>Outcome</dt>
+                <dd class="case-out">
+                  Eliminated manual re-entry between sales and workshop teams, automated deadline alerts for urgent
+                  deliverables (&le; 10 days), and provided studio owners complete operational visibility.
+                </dd>
+              </dl>
+            </details>
+          </div>
+
+          <div class="chips">
+            <span class="chip">React Native</span>
+            <span class="chip">Expo SDK 57</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">Supabase</span>
+            <span class="chip">Postgres</span>
+            <span class="chip">NativeWind</span>
+            <span class="chip">Redux Toolkit</span>
+            <span class="chip">Offline-First</span>
+          </div>
+
+          <a class="store" href="https://github.com/spoonart1/order-management" rel="noopener" target="_blank">
+            View on GitHub <span aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+
+        <figure class="shot shot-wide">
+          <img class="shot-bg" loading="lazy" decoding="async" src="assets/shots/alora-studio.png" alt="" aria-hidden="true">
+          <img class="shot-img" loading="lazy" decoding="async" src="assets/shots/alora-studio.png" width="1024" height="576"
+               alt="Alora Studio cross-platform operational management showcasing Web Desktop dashboard and Mobile app preview.">
+          <figcaption>Cross-platform Web &amp; Mobile operational dashboard, Alora Studio</figcaption>
+        </figure>
+      </article>
 
       <!-- SWAT ------------------------------------------------------- -->
       <article class="proj">
