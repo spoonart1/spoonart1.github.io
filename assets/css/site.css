@@ -495,6 +495,10 @@ img, svg { max-width: 100%; display: block; }
 }
 .shot-wide {
   aspect-ratio: 16 / 9;
+  background: #FAF8F5;
+}
+.shot-wide .shot-bg {
+  display: none;
 }
 .shot-wide .shot-img {
   object-fit: contain;
@@ -502,8 +506,10 @@ img, svg { max-width: 100%; display: block; }
 .shot-wide figcaption {
   display: none;
 }
-.proj:has(.shot-wide) {
-  grid-template-columns: minmax(0, 12rem) minmax(0, 1fr) minmax(0, 22rem);
+@media (min-width: 1041px) {
+  .proj:has(.shot-wide) {
+    grid-template-columns: minmax(0, 12rem) minmax(0, 1fr) minmax(0, 22rem);
+  }
 }
 .shot-bg {
   position: absolute; inset: 0;
@@ -712,13 +718,13 @@ a:focus-visible, .btn:focus-visible {
   .hero-layout { grid-template-columns: 1fr; }
   .hero-portrait { order: -1; width: 6.5rem; height: 6.5rem; }
   .about-grid { grid-template-columns: 1fr; }
-  .proj { grid-template-columns: minmax(0, 12rem) minmax(0, 1fr); }
+  .proj, .proj:has(.shot-wide) { grid-template-columns: minmax(0, 12rem) minmax(0, 1fr); }
   .shot { grid-column: 1 / -1; max-width: 22rem; aspect-ratio: 16 / 10; }
   .shot.shot-wide { max-width: 100%; aspect-ratio: 16 / 9; }
 }
 
 @media (max-width: 820px) {
-  .proj { grid-template-columns: 1fr; }
+  .proj, .proj:has(.shot-wide) { grid-template-columns: 1fr; }
   .interlude { grid-template-columns: 1fr; gap: .5rem; }
   .spec {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
@@ -726,7 +732,7 @@ a:focus-visible, .btn:focus-visible {
     padding-bottom: 1.25rem; border-bottom: 1px solid var(--line-soft);
   }
   .shot { max-width: none; aspect-ratio: 4 / 3; }
-  .shot.shot-wide { aspect-ratio: 16 / 9; }
+  .shot.shot-wide { max-width: 100%; aspect-ratio: 16 / 9; }
   .stat-strip { grid-template-columns: 1fr; }
   .stat-box:last-child { grid-column: auto; }
 }
@@ -738,6 +744,31 @@ a:focus-visible, .btn:focus-visible {
   .cta-row { gap: 1rem; }
   .btn { width: 100%; text-align: center; }
   .contact-action { flex-direction: column; align-items: flex-start; }
+  .flow { grid-template-columns: 1fr; }
+  .engagement-grid { grid-template-columns: 1fr; }
+  .impact-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .spec {
+    grid-template-columns: 1fr 1fr;
+    gap: .85rem;
+  }
+  .spec-v {
+    font-size: .8125rem;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  .case summary {
+    padding: .85rem 1rem;
+    gap: .3rem .75rem;
+  }
+  .case-title {
+    font-size: .875rem;
+  }
+  .case-result {
+    font-size: .6875rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
