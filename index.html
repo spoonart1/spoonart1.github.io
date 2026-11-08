@@ -167,6 +167,258 @@
 
     <div class="projects">
 
+      <!-- SMART TRANSPORT & LOGISTICS (SMARTIX) ------------------------- -->
+      <article class="proj">
+        <div class="spec">
+          <div class="spec-row">
+            <div class="spec-k">Role</div>
+            <div class="spec-v">Lead Mobile &amp; Fullstack Architect</div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-k">Org</div>
+            <div class="spec-v">Smart Transport &amp; Logistics (Mining Multimodal)</div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-k">Years</div>
+            <div class="spec-v">2026 · Shipped &amp; Active</div>
+          </div>
+          <div class="spec-row">
+            <div class="spec-k">Domain</div>
+            <div class="spec-v">Mining Mobility · Multimodal Logistics · Safety Compliance</div>
+          </div>
+        </div>
+
+        <div>
+          <div class="proj-title">
+            <img class="proj-icon" src="assets/icons/smartix.png" width="128" height="128"
+                 alt="" aria-hidden="true">
+            <h2 class="proj-name">Smart Transport &amp; Logistics</h2>
+          </div>
+          <p class="proj-desc">
+            Mission-critical multimodal mobility platform orchestrating speedboats, VIP helicopters, and ATR-72 charter flights
+            for remote mining sites (Gosowong Gold Mine). Built cross-platform with offline-first field gate scanners,
+            HMAC-signed digital boarding passes, and official KSOP harbor master manifest compliance.
+          </p>
+
+          <ul class="shipped">
+            <li>Engineered an offline-first gate scanner HUD using Expo Camera with audio/haptic feedback, local HMAC verification, and background outbox sync</li>
+            <li>Architected cryptographic digital boarding passes using HMAC-SHA256 tokenization and anti-duplicate check-in state tracking</li>
+            <li>Built realtime cross-device state synchronization via Supabase Realtime WebSocket channels between scanner and passenger devices</li>
+            <li>Designed atomic seat reservation engine with PostgreSQL ACID concurrency locking (<code style="font-family: 'IBM Plex Mono', monospace;">FOR UPDATE</code>) preventing roster double-bookings</li>
+            <li>Built official KSOP maritime manifest operations desk with automated passenger manifest generation, Excel export, and printable documents</li>
+            <li>Universal codebase running across Web Desktop, Tablets, and Mobile (iOS &amp; Android) via React Native and Expo SDK 58</li>
+          </ul>
+
+          <div class="cases">
+            <p class="cases-k">Case studies</p>
+
+            <details class="case" open>
+              <summary>
+                <span class="case-title">Offline-first gate scanner for remote docks &amp; helipads</span>
+                <span class="case-result">0ms gate latency · background outbox sync</span>
+              </summary>
+              <dl class="case-body">
+                <dt>Context</dt>
+                <dd>
+                  Remote island docks and mountain helipads frequently suffer from severe cellular dropouts and signal blackouts.
+                  Traditional cloud-dependent check-in systems freeze or timeout, causing hazardous passenger congestion during time-sensitive crew roster rotations.
+                </dd>
+                <dt>What I did</dt>
+                <dd>
+                  Architected an offline-resilient gate scanner HUD using Expo Camera and local signature validation.
+                  Tickets are verified in sub-100ms against cached cryptographic HMAC hashes. Scanned items are committed to an
+                  isolated local outbox queue and synced seamlessly to Supabase in the background as soon as connectivity resumes.
+                </dd>
+                <dt>Outcome</dt>
+                <dd class="case-out">
+                  Achieved 0ms gate turnaround time, eliminated boarding queue bottlenecks, guaranteed zero data loss across 30-minute cellular outages, and prevented duplicate check-in fraud.
+                </dd>
+              </dl>
+            </details>
+
+            <details class="case">
+              <summary>
+                <span class="case-title">ACID seat allocation &amp; tiered crew roster approvals</span>
+                <span class="case-result">Zero race conditions · MTOW compliance</span>
+              </summary>
+              <dl class="case-body">
+                <dt>Context</dt>
+                <dd>
+                  During weekly roster change days, hundreds of mining staff simultaneously book high-demand helicopter and charter flights.
+                  Unsynchronized booking requests caused race conditions, double-booked seats, and violated strict aviation take-off weight limits.
+                </dd>
+                <dt>What I did</dt>
+                <dd>
+                  Implemented PostgreSQL ACID transaction isolation using <code style="font-family: 'IBM Plex Mono', monospace;">FOR UPDATE</code> row-level locking on seat quotas.
+                  Architected a 2-tier approval workflow (Supervisor ➔ General Manager) with cryptographic batch-approval HMAC tokens enabling 1-click email approvals.
+                </dd>
+                <dt>Outcome</dt>
+                <dd class="case-out">
+                  Completely eradicated overbooking incidents, ensured 100% compliance with aviation and maritime safety quotas, and slashed authorization cycle times from 48 hours to under 15 minutes.
+                </dd>
+              </dl>
+            </details>
+
+            <details class="case">
+              <summary>
+                <span class="case-title">Realtime sync &amp; transition polish (zero black screen)</span>
+                <span class="case-result">60 FPS native feel · no layout shift</span>
+              </summary>
+              <dl class="case-body">
+                <dt>Context</dt>
+                <dd>
+                  Moving between mission-critical screens (Home &rarr; Manifest &rarr; Scanner) in complex web-native architectures often suffered from dark canvas flashing and abrupt component mounting while fetching remote Supabase data.
+                </dd>
+                <dt>What I did</dt>
+                <dd>
+                  Refactored the core root routing layout with a unified light navigation theme (<code style="font-family: 'IBM Plex Mono', monospace;">#F8FAFC</code>), engineered smooth 200ms cross-fade animations on the Expo Router Stack, eliminated root Web DOM repaint flashes via tailored keyframe transitions, and built an isolated <code style="font-family: 'IBM Plex Mono', monospace;">SmoothScreenTransition</code> wrapper providing progressive opacity reveals across all major views.
+                </dd>
+                <dt>Outcome</dt>
+                <dd class="case-out">
+                  Created a fluid, executive-grade 60 FPS transition experience on both low-end field mobile devices and desktop workstations, completely eliminating visual layout shifts and black flashes.
+                </dd>
+              </dl>
+            </details>
+
+            <details class="case">
+              <summary>
+                <span class="case-title">Production UI gallery &amp; role walkthroughs</span>
+                <span class="case-result">26 screens · Guest, Employee, KSOP Admin</span>
+              </summary>
+              <div class="case-gallery">
+                <div class="gallery-cat">
+                  <p class="gallery-cat-title">Role 1 · Guest Schedule Explorer &amp; Quotas</p>
+                  <div class="gallery-cards">
+                    <a class="gallery-card" href="assets/shots/smartix/1_guest/01_guest_desktop_jadwal_kuota.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/1_guest/01_guest_desktop_jadwal_kuota.png" alt="Desktop Jadwal &amp; Kuota">
+                      <span class="gallery-card-lbl">Desktop · Jadwal &amp; Kuota</span>
+                    </a>
+                    <a class="gallery-card is-mob" href="assets/shots/smartix/1_guest/01_guest_mobile_jadwal_kuota.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/1_guest/01_guest_mobile_jadwal_kuota.png" alt="Mobile Jadwal &amp; Kuota">
+                      <span class="gallery-card-lbl">Mobile · Jadwal &amp; Kuota</span>
+                    </a>
+                    <a class="gallery-card" href="assets/shots/smartix/1_guest/02_guest_desktop_form_pemesanan.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/1_guest/02_guest_desktop_form_pemesanan.png" alt="Desktop Form Pemesanan">
+                      <span class="gallery-card-lbl">Desktop · Form Pemesanan</span>
+                    </a>
+                    <a class="gallery-card is-mob" href="assets/shots/smartix/1_guest/02_guest_mobile_form_pemesanan.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/1_guest/02_guest_mobile_form_pemesanan.png" alt="Mobile Form Pemesanan">
+                      <span class="gallery-card-lbl">Mobile · Form Pemesanan</span>
+                    </a>
+                    <a class="gallery-card" href="assets/shots/smartix/1_guest/03_guest_desktop_modal_auth_prompt.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/1_guest/03_guest_desktop_modal_auth_prompt.png" alt="Desktop Modal Auth">
+                      <span class="gallery-card-lbl">Desktop · Auth Prompt</span>
+                    </a>
+                    <a class="gallery-card is-mob" href="assets/shots/smartix/1_guest/03_guest_mobile_modal_auth_prompt.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/1_guest/03_guest_mobile_modal_auth_prompt.png" alt="Mobile Modal Auth">
+                      <span class="gallery-card-lbl">Mobile · Auth Prompt</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="gallery-cat">
+                  <p class="gallery-cat-title">Role 2 · Registered Crew / Employee (Safety Induction &amp; Passes)</p>
+                  <div class="gallery-cards">
+                    <a class="gallery-card" href="assets/shots/smartix/2_user_registered/01_user_desktop_jadwal_multimoda.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/2_user_registered/01_user_desktop_jadwal_multimoda.png" alt="Desktop Jadwal Multimoda">
+                      <span class="gallery-card-lbl">Desktop · Jadwal Multimoda</span>
+                    </a>
+                    <a class="gallery-card is-mob" href="assets/shots/smartix/2_user_registered/01_user_mobile_jadwal_multimoda.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/2_user_registered/01_user_mobile_jadwal_multimoda.png" alt="Mobile Jadwal Multimoda">
+                      <span class="gallery-card-lbl">Mobile · Jadwal Multimoda</span>
+                    </a>
+                    <a class="gallery-card" href="assets/shots/smartix/2_user_registered/02_user_desktop_form_pemesanan_karyawan.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/2_user_registered/02_user_desktop_form_pemesanan_karyawan.png" alt="Desktop Booking Karyawan">
+                      <span class="gallery-card-lbl">Desktop · Form Karyawan</span>
+                    </a>
+                    <a class="gallery-card is-mob" href="assets/shots/smartix/2_user_registered/02_user_mobile_form_pemesanan_karyawan.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/2_user_registered/02_user_mobile_form_pemesanan_karyawan.png" alt="Mobile Booking Karyawan">
+                      <span class="gallery-card-lbl">Mobile · Form Karyawan</span>
+                    </a>
+                    <a class="gallery-card" href="assets/shots/smartix/2_user_registered/03_user_desktop_modal_safety_induction.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/2_user_registered/03_user_desktop_modal_safety_induction.png" alt="Desktop Safety Induction">
+                      <span class="gallery-card-lbl">Desktop · Safety Induction</span>
+                    </a>
+                    <a class="gallery-card is-mob" href="assets/shots/smartix/2_user_registered/03_user_mobile_modal_safety_induction.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/2_user_registered/03_user_mobile_modal_safety_induction.png" alt="Mobile Safety Induction">
+                      <span class="gallery-card-lbl">Mobile · Safety Induction</span>
+                    </a>
+                    <a class="gallery-card" href="assets/shots/smartix/2_user_registered/04_user_desktop_tiket_saya_boarding_pass.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/2_user_registered/04_user_desktop_tiket_saya_boarding_pass.png" alt="Desktop Tiket Boarding Pass">
+                      <span class="gallery-card-lbl">Desktop · HMAC Boarding Pass</span>
+                    </a>
+                    <a class="gallery-card is-mob" href="assets/shots/smartix/2_user_registered/04_user_mobile_tiket_saya_boarding_pass.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/2_user_registered/04_user_mobile_tiket_saya_boarding_pass.png" alt="Mobile Tiket Boarding Pass">
+                      <span class="gallery-card-lbl">Mobile · HMAC Boarding Pass</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="gallery-cat">
+                  <p class="gallery-cat-title">Role 3 · Dispatcher, Field Marshal &amp; KSOP Harbor Master</p>
+                  <div class="gallery-cards">
+                    <a class="gallery-card" href="assets/shots/smartix/3_admin_approver/01_admin_desktop_antrean_approval_berjenjang.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/3_admin_approver/01_admin_desktop_antrean_approval_berjenjang.png" alt="Desktop Approval Queue">
+                      <span class="gallery-card-lbl">Desktop · Approval Berjenjang</span>
+                    </a>
+                    <a class="gallery-card is-mob" href="assets/shots/smartix/3_admin_approver/01_admin_mobile_antrean_approval_berjenjang.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/3_admin_approver/01_admin_mobile_antrean_approval_berjenjang.png" alt="Mobile Approval Queue">
+                      <span class="gallery-card-lbl">Mobile · Approval Berjenjang</span>
+                    </a>
+                    <a class="gallery-card" href="assets/shots/smartix/3_admin_approver/01_admin_desktop_sticky_checkbox_scrolled.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/3_admin_approver/01_admin_desktop_sticky_checkbox_scrolled.png" alt="Desktop Sticky Batch Actions">
+                      <span class="gallery-card-lbl">Desktop · Sticky Batch Action</span>
+                    </a>
+                    <a class="gallery-card is-mob" href="assets/shots/smartix/3_admin_approver/01_admin_mobile_sticky_checkbox_scrolled.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/3_admin_approver/01_admin_mobile_sticky_checkbox_scrolled.png" alt="Mobile Sticky Batch Actions">
+                      <span class="gallery-card-lbl">Mobile · Sticky Batch Action</span>
+                    </a>
+                    <a class="gallery-card" href="assets/shots/smartix/3_admin_approver/02_admin_desktop_scanner_manifest_desk.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/3_admin_approver/02_admin_desktop_scanner_manifest_desk.png" alt="Desktop KSOP Manifest Desk">
+                      <span class="gallery-card-lbl">Desktop · KSOP Manifest Desk</span>
+                    </a>
+                    <a class="gallery-card is-mob" href="assets/shots/smartix/3_admin_approver/02_admin_mobile_scanner_manifest_desk.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/3_admin_approver/02_admin_mobile_scanner_manifest_desk.png" alt="Mobile Gate Scanner HUD">
+                      <span class="gallery-card-lbl">Mobile · Gate Scanner HUD</span>
+                    </a>
+                    <a class="gallery-card" href="assets/shots/smartix/3_admin_approver/03_admin_desktop_kelola_armada_jadwal.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/3_admin_approver/03_admin_desktop_kelola_armada_jadwal.png" alt="Desktop Kelola Armada &amp; Jadwal">
+                      <span class="gallery-card-lbl">Desktop · Kelola Armada</span>
+                    </a>
+                    <a class="gallery-card is-mob" href="assets/shots/smartix/3_admin_approver/03_admin_mobile_kelola_armada_jadwal.png" target="_blank" rel="noopener">
+                      <img class="gallery-card-thumb" loading="lazy" decoding="async" src="assets/shots/smartix/thumbs/3_admin_approver/03_admin_mobile_kelola_armada_jadwal.png" alt="Mobile Kelola Armada &amp; Jadwal">
+                      <span class="gallery-card-lbl">Mobile · Kelola Armada</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </details>
+          </div>
+
+          <div class="chips">
+            <span class="chip">React Native</span>
+            <span class="chip">Expo SDK 58</span>
+            <span class="chip">TypeScript</span>
+            <span class="chip">Supabase (PostgreSQL)</span>
+            <span class="chip">Offline Outbox Sync</span>
+            <span class="chip">HMAC-SHA256</span>
+            <span class="chip">Realtime WebSockets</span>
+            <span class="chip">KSOP Maritime Compliance</span>
+          </div>
+
+          <a class="store" href="https://smartix-two.vercel.app" target="_blank" rel="noopener">
+            View Live Web App <span aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+
+        <figure class="shot shot-wide">
+          <img class="shot-bg" loading="lazy" decoding="async" src="assets/shots/smartix.png" alt="" aria-hidden="true">
+          <img class="shot-img" loading="lazy" decoding="async" src="assets/shots/smartix.png" width="1024" height="576"
+               alt="Smart Transport &amp; Logistics: Cross-platform Multimodal mobility schedule explorer, KSOP dispatcher manifest desk, and offline-first gate scanner HUD.">
+          <figcaption>Cross-platform Web Desktop &amp; Mobile mobility operations, Smart Transport &amp; Logistics</figcaption>
+        </figure>
+      </article>
+
       <!-- ALORA STUDIO ------------------------------------------------- -->
       <article class="proj">
         <div class="spec">
